@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+label {
+  position: relative;
+  width: 160px;
+  height: 80px;
+  cursor: pointer;
+}
+
+label input {
+  position: relative;
+  z-index: 1;
+  appearance: none;
+}
+
+label span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  border-radius: 80px;
+  transition: 0.5s;
+  box-shadow: 0 15px 25px#fe000066;
+}
+
+label input:checked ~ span {
+  background-color: #05be05;
+  box-shadow: 0 15px 25px #05be0566;
+}
+
+label span i {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  background-color: white;
+  transition: 0.5s;
+}
+
+label input:checked ~ span i {
+  position: absolute;
+  left: 84px;
+}
+label span i::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+  top: 22px;
+  left: 12px;
+  box-shadow: 36px 0 0 red;
+  transition: 0.5s;
+}
+
+label input:checked ~ span i::before {
+  background-color: #05be05;
+  box-shadow: 36px 0 0#05be05;
+}
+
+label span i::after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  width: 30px;
+  height: 7px;
+  border-radius: 5px;
+  left: calc(50% - 15px);
+  background-color: red;
+}
+
+label input:checked ~ span i::after {
+  bottom: 13px;
+  height: 15px;
+  border-radius: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #05be05;
+}
+
+
