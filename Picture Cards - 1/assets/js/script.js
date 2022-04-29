@@ -10,4 +10,4 @@ $(document).ready(function(){
         $(this).css('transform','rotateX('+ 0 +'deg) rotateY('+ 0 +'deg)');
         $(this).children('.image').css({'top':'0', 'left':'0'});
     })
-})
+}
