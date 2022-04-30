@@ -48,6 +48,7 @@ label input{
 .switch .button i{
     color: rgba(255,255,255,0.25);
     font-size: 2rem;
+    transition: 1s ease;
 }
 .switch input:checked ~ .button i{
     color: rgb(255,255,255,1);
