@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(12, 12, 12); 
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.switch{
+    position: relative;
+    width: 150px;
+    height: 75px;
+    background-color:rgb(26, 26, 26);
+    border-radius: 5px; 
+}
+.switch .button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    border: 6px solid rgb(26, 26, 26);
+    background-color: rgb(37, 36, 36);
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+label input{
+    appearance: none;
+}
+.switch input:checked ~ .button{
+    left:75px;
+    
+}
+
+.switch .button i{
+    color: rgba(255,255,255,0.25);
+    font-size: 2rem;
+}
+.switch input:checked ~ .button i{
+    color: rgb(255,255,255,1);
+    filter: drop-shadow(0 0 5px  #fff) drop-shadow(0 0 10px #fff) drop-shadow(0 0 15px #fff);
+}
