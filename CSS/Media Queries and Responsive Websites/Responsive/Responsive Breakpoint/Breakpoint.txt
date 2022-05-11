@@ -1,0 +1,6 @@
+Breakpoint 
+	- Là những điểm (chiều rộng màn hình của thiết bị) mà ở đó giao diện được chuyển đổi cho phù hợp với thiết bị hiện tại, ví dụ như màn hình 
+	rộng hơn 1024px, thì có background-color màu đỏ, nhỏ hơn 1024px thì background-color màu xanh, khi này ta gọi 1024 là breakpoint.
+
+	Tùy vào chiều rộng hiển thị của thiết bị mà breakpoint sẽ khác nhau, hiện nay có rất nhiều thiết bị, tương ứng sẽ có nhiều chiều rộng khác
+	 nhau, nên sẽ có nhiều breakpoint khác nhau, do đó ta không thể thiết lập beakpoint cho từng loại thiết bị được.

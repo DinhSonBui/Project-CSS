@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.analytic
+{
+	background-image:url("file:///C:/Users/16%20TTV/Documents/Visual%20Studio%202019/Nhapmon_Cautruc_dulieu_giaithuat/Camtasia%20Studio/Downloads/anh-dep-ve-buoi-toi-51056.jpg");
+	margin: 30px auto;
+    padding: 38px 0;
+    width: 1180px;
+  }
+  .analytic ul {
+    text-align: center;
+  }
+  .analytic ul li {
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+  }
+
+.analytic .icon i
+{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.analytic .number
+{
+	font-size: 40px;
+	margin-bottom: 20px;
+}

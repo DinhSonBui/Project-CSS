@@ -1,0 +1,9 @@
+* Media Queries
+	- Chức năng : Để xử lý thay đổi giao diện các dạng màn hình khác nhau về kích cỡ , sử dụng câu truy vấn @media
+	- Cấu trúc câu truy vấn @media viết trong file css
+ 		@meida only|not Media-type and (Media-future and|or|not Media-future){
+			tag{
+				property : value;
+			   }
+		}
+	- Media-type có các giá trị là: all(mặc định), screen (dành cho trang hiển thị), print(dành cho bản in),speech(dành cho phiên bản đọc thành tiếng)

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-size: 16px;
+	
+}
+
+.tag-list
+{
+	margin: 30px auto;
+	width:300px;
+}
+.tag-list h2
+{
+	margin-bottom: 30px;
+}
+.tag-list li
+{
+	list-style: none;
+	display:inline-block;
+	margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.tag-list li a
+{
+	text-decoration: none;
+	background: #118FA7;
+	color:aliceblue;
+	display: inline-block;
+	height:30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	line-height: 30px;
+	transition: 0.3s background-color;
+}
+
+.tag-list li a:hover
+{
+	background: #6ABE62;
+}
+

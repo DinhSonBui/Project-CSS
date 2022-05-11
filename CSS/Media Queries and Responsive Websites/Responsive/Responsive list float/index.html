@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		ul,li
+		{
+			list-style: none;
+			padding: 0px;
+		}
+		ul
+		{
+			border: 1px solid #ccc;
+   	 		margin: 0 auto;
+   			width: 630px;
+		}
+		ul:after {
+    		clear: both;
+    		content: ".";
+   	 		display: block;
+   		 	height: 0;
+    		line-height: 0;
+    		visibility: hidden;
+		}
+		ul li {
+    		background-color: #a4e7fd;
+    		float: left;
+   		 	margin-right: 10px;
+    		margin-bottom: 10px;
+    		padding: 10px 0;
+    		text-align: center;
+    		width: 150px;
+			}
+		ul li:nth-child(4n){
+   			 margin-right: 0;
+			}
+
+	</style>
+</head>
+
+<body>
+	<div>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<li>7</li>
+			<li>8</li>
+			<li>9</li>
+			<li>10</li>
+		</ul>
+	</div>
+</body>
+</html>

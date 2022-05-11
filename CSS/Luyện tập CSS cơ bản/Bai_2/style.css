@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0px;
+	padding : 0px;
+}
+
+ body 
+{
+    color: #333;
+    font-family: Helvetica,sans-serif;
+    font-size: 14px;
+}
+.offer
+{
+	background: url(https://photo-cms-plo.zadn.vn/w559/Uploaded/2021/wcbaqlm3/2272_z10596fejpg.jpg);
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 80px 0 60px;
+}
+.offer h2 
+{
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.offer .info 
+{
+    margin-bottom: 30px;
+}
+.offer .btn a
+{	
+	box-shadow: inset 0px 0px 0px 0px #cf866c;
+    
+}

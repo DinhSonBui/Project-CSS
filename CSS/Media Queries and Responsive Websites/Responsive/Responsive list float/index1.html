@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 630px;
+    max-width: 100%;
+}
+
+/* Đây là thủ thuật clearfix, ai chưa biết thì xem lại bài học CSS he */
+ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+ul li {
+    background-color: #a4e7fd;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    width: 150px;
+}
+
+@media only screen and (min-width: 641px) {
+    ul li:nth-child(4n){
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 481px) {
+    ul li {
+        margin-right: 1%;
+        width: 32.6666%;
+    }
+
+    ul li:nth-child(3n){
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    ul li {
+        margin-right: 2%;
+        width: 49%;
+    }
+
+    ul li:nth-child(2n){
+        margin-right: 0;
+    }
+}
+	</style>
+</head>
+
+<body>
+		<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+  background-image: linear-gradient(to right bottom, #ffa400, #e74c3c);
+  height: auto;
+  padding: 50px;
+  display: grid;
+ grid-template-columns: 12.5% repeat(3,25%) 12.5%;
+}
+.item 
+{
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 2px solid orange;
+}

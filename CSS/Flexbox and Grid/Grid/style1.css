@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+#grid {
+  display: grid;
+  height: 200px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 200px;
+}
+#item1 {
+  background-color: #07a787;
+}
+#item2 {
+  background-color: #ffa400;
+  grid-column: 2 / 4;
+}
+#item3 {
+  background-color: #00aefd;
+	grid-column: 5 / span 2;
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		input[type="text"],
+		input[type="email"],
+		textarea {
+    		padding: 5px 0;
+   		 	width: 500px;
+}
+
+.info {
+    margin: 0 auto;
+    width: 600px;
+	max-width: 100%;
+}
+
+.info dl {
+    background-color: #f3f3f3;
+    padding: 10px 30px 15px;
+}
+
+.info dl dt {
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.info dl dd {
+    margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+.info p {
+    text-align: center;
+}
+
+.info p button {
+    background-color: #666;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    height: 36px;
+    text-align: center;
+    width: 100px;
+}
+	@media only screen and (max-width: 640px) {
+    .info {
+        max-width: 600px;
+        width: auto;
+    }
+
+    .info dl {
+        padding: 10px 20px 15px;
+    }
+
+    .info p button {
+        width: 50%;
+        min-width: 200px;
+    }
+	.ok input ,.ko input, .info textarea
+	{
+		width: 100%;
+	}	
+}
+	</style>
+</head>
+
+<body>
+	<div class="info">
+    <form action="" method="">
+        <dl>
+            <dt><label for="name">Name</label></dt>
+            <dd class="ok"><input type="text" name="name"  class="name"></dd>
+
+            <dt><label for="name">Email</label></dt>
+            <dd class="ko"><input type="email" name="email" class="email"></dd>
+            <dt>Gender</dt>
+            <dd> 
+                <input type="radio" name="gender" id="male" value=""><label for="male">Male</label> 
+                <input type="radio" name="gender" id="female" value=""><label for="female">Female</label> 
+                <input type="radio" name="gender" id="other" value=""><label for="other">Other</label>
+            </dd>
+			
+
+            <dt>Language</dt>
+            <dd>
+                <input type="checkbox" name="english" id="english" value="english"><label for="english">English</label>
+                <input type="checkbox" name="japanese" id="japanese" value="japanese"><label for="japanese">Japanese</label>
+                <input type="checkbox" name="korean" id="korean" value="korean"><label for="korean">Korean</label>
+                <input type="checkbox" name="vietnamese" id="vietnamese" value="vietnamese"><label for="vietnamese">vietnamese</label>
+            </dd>
+
+            <dt><label for="message">Message</label></dt>
+            <dd><textarea cols="50" rows="10" name="message" id="message"></textarea></dd>
+        </dl>
+
+        <p><button type="submit">Submit</button></p>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+* Flexbox - display : flex
+	- flex-direction : row, row-reverse , column , column-reverse
+	- flex-wrap : nowrap , wrap , wrap-reverse
+	- justify-content : flex-start, flex-end, center , space-between, space-around
+	- order : value(example:  0,1,2,3,4 ,....)
+	- align-items : flex-start, flex-end, center , stretch, baseline.
+	- align-self: flex-start, flex-end, center , stretch, baseline.
+
+

@@ -1,0 +1,16 @@
+* Responsive 
+	- Khái niệm : Responsive là thuật ngữ dùng để chỉ một trang web có thể hiển thị tốt trên các thiết bị khác nhau, bao gồm: PC (Personal 
+		     Computer - máy tính cá nhân bao gồm máy tính bàn và laptop), Tablet (máy tính bảng), SP (Smartphone - điện thoại thông 
+                     minh).
+
+ 	- Hiển thị tốt ở đây là trang web không bị vỡ giao diện, mà giao diện sẽ linh hoạt điều chỉnh sao cho phù hợp với từng thiết bị khác nhau.
+
+      	- Linh hoạt giao diện có thể là:
+		+) Chiều rộng của các thành phần thay đổi, co giản theo từng màn hình khác nhau.
+		+) Hình ảnh thay đổi cho phù hợp hơn, ví dụ khi xem trên PC thì chữ trong hình nhỏ vừa đủ coi, trên SP thì sẽ sử dụng hình với nội 
+		dung chữ lớn hơn cho phù hợp với các thiết bị điện thoại.
+		+) Vị trí các thành phần thay đổi, ví dụ nội dung bên phần sidebar (aside) không quan trọng như các phần khác, thì sẽ di chuyển 
+		xuống phía dưới.
+		+) Mục (item) của danh sách (list) trên một hàng cũng cần thay đổi cho phù hợp, ví dụ trên PC thì là 4 mục, nhưng trên SP thì hiển 
+		thị 2 hoặc 1 mục để cho dễ nhìn.
+		Nhiều thay đổi khác ...

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		
+		@media only screen and (min-width: 1025px){
+    	.tablet, .sp {
+       		 display: none;
+    	}
+		}
+
+/* Hiển thị cho tablet, nên PC và SP sẽ ẩn */
+	@media only screen and (max-width:1024px) and (min-width: 641px) {
+    	.sp, .pc {
+        	display: none;
+    	}
+	}
+
+/* Hiển thị cho SP, nên tablet và PC sẽ ẩn */
+
+		@media only screen and (max-width: 640px) {
+    .pc, .tablet {
+        display: none;
+    }
+}
+	</style>
+</head>
+
+<body>
+	<img src="https://media.vov.vn/sites/default/files/styles/large/public/2021-05/final.jpg" alt="" class="pc">
+	<img src="https://thethao99.com/wp-content/uploads/2021/05/cap-nhat-truc-tiep-bong-da-chung-ket-cup-c1-man-city-vs-chelsea-02h00-305.jpg" alt="" class="tablet">
+	<img src="https://pbgdpl.hanoi.gov.vn/image/journal/article?img_id=5314799&t=1604586129994" alt="" class="sp">
+</body>
+</html>

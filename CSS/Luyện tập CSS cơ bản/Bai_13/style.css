@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin : 0px;
+	padding : 0px;
+}
+
+footer
+{   margin: 30px auto;
+    position: relative;
+    width: 1140px;
+	font-size: 16px;
+	color:black;
+	font-family:Helvetica,sans-serif;
+}
+
+footer div
+{
+	float  : left;
+}
+
+footer div h4
+{
+	margin-bottom: 27px;
+}
+
+footer div p
+{
+	line-height:2;
+}
+
+ul {
+    list-style: none;
+  }
+
+a
+{
+	color:#AAAAAA;
+	text-decoration: none;
+	line-height: 2;
+	transition: 0.3s color;
+}
+a:hover
+{
+	color:black;
+}
+
+footer .air 
+{
+    max-width: 490px;
+    width: 42.98%
+  }
+footer .links
+{
+	max-width: 195px;
+	width:17.10%
+}
+
+footer .categories
+{
+	max-width: 195px;
+	width:17.10%
+}
+
+footer .contact{
+	max-width: 260px;
+	width:22.82%
+}
+
+footer .contact address {
+    font-style: normal;
+  }

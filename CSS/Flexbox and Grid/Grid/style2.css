@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "nav  foot";
+  grid-template-rows: 50px 170px 30px;
+  grid-template-columns: 150px auto;
+}
+#page > header {
+  grid-area: head;
+  background-color: #07a787;
+}
+#page > nav {
+  grid-area: nav;
+  background-color: #ffa400;
+}
+#page > main {
+  grid-area: main;
+  background-color: #00aefd;
+}
+#page > footer {
+  grid-area: foot;
+  background-color: #e74c3c;
+}

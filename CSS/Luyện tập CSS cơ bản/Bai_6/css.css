@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+	color:black;
+	line-height: 1.5;
+}
+
+.examples{
+	margin: 20px auto;
+	width:1000px;
+}
+
+.examples h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  /* phần background trắng che line bên dưới */
+  .examples h2 span {
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+  }
+  /* line của h2 */
+  .examples h2:after {
+    background-color: #e1e0e0;
+    content: "";
+    display: block;
+    height: 1px;
+    
+  }
+

@@ -1,0 +1,12 @@
+- Responsive Viewport 
+	- Nội dung HTML sẽ đối ứng với màn hình giao diện PC, nên khi xem trên các thiết bị như Tablet hay SP, nội dung sẽ hiển thị không như ý muốn,
+	  cụ thể là nội dung bị phóng to hoặc thu nhỏ với tỷ lệ khác đi, để giải quyết vấn đề này ta dùng khai báo viewport cho file HTML.
+	- Nội dung viewport được khai báo bằng thẻ <meta> với các giá trị tương ứng sau:
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+		Note :
+		width=device-width : Chiều rộng bằng chiều rộng của thiết bị.
+		height=device-height : Chiều cao bằng chiều cao của thiết bị.
+		maximum-scale=1.0 : Tỷ lệ lớn nhất (1.0 ứng với 100%).
+		minimum-scale=1.0 : Mức phóng to tối thiểu của thiết bị (1.0 ứng với 100%).
+		initial-scale=1.0 : Độ phóng to ban đầu (1.0 ứng với 100%).
+		user-scalable=no : Cho phép người dùng phóng to màn hình hay không (giá trị yes hoặc no)

@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	 font-size: 16px;
+	color:black;
+	line-height: 1.8;
+}
+.news
+{
+    margin: 30px auto;
+    width: 1000px;
+  }
+
+.news .image-news {
+    float: left;
+    width: 500px;
+  }
+.news .info-news {
+    float: right;
+    width: 480px;
+  }
+.news .info-news h2
+{
+	font-size: 31px;
+	font-weight:500;
+	margin-bottom: 20px;
+}
+.news .info-news p
+{
+	margin-bottom: 20px;
+}
+
+.news .info-news .detail a
+{
+	text-decoration: none;
+	display: inline-block;
+	height:30px;
+	width: 100px;
+	background:#FFFFFF;
+	color: black;
+	border: 1px solid black;
+	border-radius: 4px;
+	text-align: center;
+	
+}
+.news .info-news .detail a:hover
+{
+	background:black;
+	color: aliceblue;
+		
+}
+
+

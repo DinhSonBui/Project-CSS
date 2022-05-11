@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		div {
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* Đây là thủ thuật clearfix, ai chưa biết thì xem lại bài học CSS he */
+    div:after {
+        clear: both;
+        content: ".";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+
+    .image {
+        float: left;
+        margin-right: 20px;
+        width: 200px;
+    }
+
+    .image img {
+        max-width: 100%; /* Dành cho hình có width lớn hơn thành phần bao ngoài */
+    }
+
+    .text {
+        float: left;
+        width: 380px;
+    }
+	</style>
+</head>
+
+<body>
+	<div>
+    <p class="image"><img src="https://pbgdpl.hanoi.gov.vn/image/journal/article?img_id=5314799&t=1604586129994" alt=""></p>
+    <p class="text">Cras vitae orci mattis, venenatis nisl in, ullamcorper orci. Aliquam ultricies, nunc eu tincidunt tempus, lectus quam fermentum orci, nec congue nunc metus molestie velit. Pellentesque vel vulputate dui. Donec et congue magna. Maecenas dignissim ut libero vel euismod. Maecenas et vestibulum nisi, in rutrum ligula. Vivamus a varius enim.</p>
+	</div>
+</body>
+</html>

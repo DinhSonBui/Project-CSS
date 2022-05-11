@@ -1,0 +1,24 @@
+* Grid  - display : grid.
+	- grid tracks
+	- grid-template-columns : 20% 20% 20% 20% 20% (container chia thành 5 cột bằng nhau, đơn vị có thể là px , hay fr)
+        - repeat : grid-template-columns :repeat(5,20%) (ý nghĩa giống như dòng trên)
+		   grid-template-columns :12.5% repeat(3,25%) 12.5% (có nghĩa là 3 cột giữa là 25% còn 2 cột đầu và cuối là 12.5%)
+	- fraction-unit viết tắt là fr : là đơn vị của css grid (giả sử grid-template-columns: 1fr 2fr 1 fr -> có nghĩa là container chia làm
+	  3 cột , cột 1 25% cột 2 50% , cột 3 25% )
+	- grid-template-rows : tương tự như grid-template-columns , nhưng mà là xét hàng
+	- grid-auto-flow : dùng khi trong trường hợp hơn 1 phần tử rớt hàng implicit , mà muốn set height cố định cho các phân tử bị rớt hàng
+ 	- grid-gap : 20px ( khoảng cách 2 phân tử hàng trên hàng dưới và cạnh phải cạnh trái bằng 20px)
+      	- grid-row-gap:20px (khoảng cách 2 phân tử cạnh phải và cạnh trái bằng 20px) 
+	- grid-column-gap:20px (khoảng cách 2 phân tử hàng trên và hàng dưới bằng 20px) 
+	- grid-column : 2/4(vị trí phân tử nằm từ track column2-> track column4)
+	- grid-column : 5 / span 2(vị trí phân tử nằm từ track column5 tiến tới trái 2 cột nữa là track column7)
+	- grid-column : span /7 ( vị trí từ track columm 7 tiến qua phải 2 cột tức là track column 5)
+ 	- grid-row : tương tự như grid-column nhưng là set track row 
+	- grid-template-areas : cực hay ok 
+		grid-template-areas: "head head"
+                       		     "nav  main"
+                       	 	     "nav  foot";
+  		grid-template-rows: 50px 170px 30px;
+  		grid-template-columns: 150px auto;
+              - > có nghĩa là head chiếm 2 cột 1 hàng ; nav chiểm 2 hàng 1 cột ; main chiếm 1 cột 1 hàng cạnh nav; và cuối cùng foot chiếm
+		  1 cột 1 hàng

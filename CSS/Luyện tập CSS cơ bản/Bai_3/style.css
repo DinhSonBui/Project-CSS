@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin :  0;
+	padding : 0px;
+	text-align: center;
+}
+
+ body {
+    color: #231f20;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+ }
+ .invite {
+    background-color: #f2f2f2;
+    margin: 20px auto;
+    padding: 30px 0 100px;
+    text-align: center;
+    width: 870px;
+  }
+.invite .icon
+{
+	color: aqua;
+	border: 1px solid;
+	border-radius: 50%;
+    height : 56px;
+	width: 56px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.invite .icon i
+{
+	font-size: 25px;
+	line-height: 60px;
+}
+
+.invite h2
+{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.invite .info
+{
+	margin-bottom: 15px;
+}
+
+.invite form .email
+{
+	margin-bottom: 15px;
+	
+}
+
+.invite form input[type=email] {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 20px;
+    width: 360px;
+  }
+.invite form button
+{
+	color: aliceblue;
+	background: #56CFE6;
+	border:  1px solid #eee;
+	height:60px;
+	width: 170px;
+	border-radius: 4px;
+	transition: 0.3s all;
+}
+ 
+.invite form button:hover
+{
+	
+	background: red;
+}
